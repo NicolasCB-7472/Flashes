@@ -1,0 +1,30 @@
+# Archivos y directorios que NO deben subirse a un repositorio público
+# Agregar estas entradas a .gitignore antes de hacer push.
+
+# ── Datos personales del usuario ──────────────────────────────────────────────
+Docs/Usuario.txt              # Nombre de usuario y tag guardados localmente
+
+# ── Logs de sesión ────────────────────────────────────────────────────────────
+Docs/Logs/                    # Historial de partidas (contiene nombre de usuario
+                              # y resultados privados de cada sesión)
+
+# ── Imágenes de avatares (si son personales) ──────────────────────────────────
+Docs/Avatares/                # Si los PNG son fotos o imágenes de uso personal
+
+# ── Barajas del usuario (opcional) ───────────────────────────────────────────
+# Docs/Barajas/               # Si las barajas contienen material propio o sensible.
+                              # Si se quieren incluir barajas de ejemplo, dejar
+                              # solo los CSV de muestra y excluir el resto con:
+                              # Docs/Barajas/*.csv (y rastrear solo los de ejemplo)
+
+# ── Salida de compilación de Maven ────────────────────────────────────────────
+myflashcardapp/target/        # Clases compiladas, JARs y archivos generados.
+                              # Se regeneran con: mvn compile
+
+# ── Configuración del editor ──────────────────────────────────────────────────
+.vscode/                      # Settings locales de VS Code (launch.json, etc.)
+.idea/                        # Por si se abre con IntelliJ IDEA en algún momento
+
+# ── Sistema operativo ─────────────────────────────────────────────────────────
+.DS_Store                     # macOS
+Thumbs.db                     # Windows

@@ -1,0 +1,20 @@
+=== CORRECTAS ===
+
+=== INCORRECTAS ===
+
+=== A DETERMINAR ===
+Río — River
+Fuego — Fire
+Estrella — Star
+Gato — Cat
+Hola — Hello
+Agua — Water
+Perro — Dog
+Árbol — Tree
+Libro — Book
+Sol — Sun
+Tierra — Earth
+Casa — House
+Luna — Moon
+Cielo — Sky
+Flor — Flower
