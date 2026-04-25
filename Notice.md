@@ -1,3 +1,4 @@
+# Notice
 # VibeCode Notice
 
 ## Qué es Flashes
